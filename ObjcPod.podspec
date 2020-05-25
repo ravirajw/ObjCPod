@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'Source/**/*.m'
+  s.source_files = 'Source/**/*.{h,m}'
   s.platforms = {
       "ios": "12.0"
   }
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #   'ObjcPod' => ['ObjcPod/Assets/*.png']
   # }
 
-  s.public_header_files = 'Source/**/*.h'
+  # s.public_header_files = 'Source/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
