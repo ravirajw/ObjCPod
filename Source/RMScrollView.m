@@ -21,4 +21,8 @@
     self.backgroundColor = color;
 }
 
+- (void)againChangeBackgroundColor:(UIColor *)color {
+    [self changeBackgroundColor:color];
+}
+
 @end
