@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ObjcPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'RMScrollView has its method to change background color.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'Source/**/*.{h,m}'
+  s.source_files = 'Source/**/*.h'
   s.platforms = {
       "ios": "12.0"
   }
