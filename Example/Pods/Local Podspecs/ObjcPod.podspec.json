@@ -1,0 +1,22 @@
+{
+  "name": "ObjcPod",
+  "version": "0.1.0",
+  "summary": "A short description of ObjcPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/w.raviraj@yahoo.com/ObjcPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "w.raviraj@yahoo.com": "raviraj@sphinx-solution.com"
+  },
+  "source": {
+    "git": "https://github.com/w.raviraj@yahoo.com/ObjcPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ObjcPod/Classes/**/*"
+}

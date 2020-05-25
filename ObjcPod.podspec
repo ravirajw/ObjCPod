@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ObjcPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ObjcPod.'
+  s.summary          = 'RMScrollView has its method to change background color.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,29 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'RMScrollView has its method to change background color.'
                        DESC
 
-  s.homepage         = 'https://github.com/w.raviraj@yahoo.com/ObjcPod'
+  s.homepage         = 'https://github.com/ravirajw/ObjcPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'w.raviraj@yahoo.com' => 'raviraj@sphinx-solution.com' }
-  s.source           = { :git => 'https://github.com/w.raviraj@yahoo.com/ObjcPod.git', :tag => s.version.to_s }
+  s.author           = { 'Raviraj' => 'w.raviraj@yahoo.com' }
+  s.source           = { :git => 'https://github.com/ravirajw/ObjcPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ObjcPod/Classes/**/*'
+  s.source_files = 'Source/**/*.m'
+  s.platforms = {
+      "ios": "12.0"
+  }
+  
   
   # s.resource_bundles = {
   #   'ObjcPod' => ['ObjcPod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Source/**/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

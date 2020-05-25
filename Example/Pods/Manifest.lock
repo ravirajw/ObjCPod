@@ -1,0 +1,16 @@
+PODS:
+  - ObjcPod (0.1.0)
+
+DEPENDENCIES:
+  - ObjcPod (from `../`)
+
+EXTERNAL SOURCES:
+  ObjcPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjcPod: 3b2c488c9c08a2731967c7c2381e912831e4ca59
+
+PODFILE CHECKSUM: 833c4158a8d047d17fbdd2048c6e30372e514bed
+
+COCOAPODS: 1.9.2
